@@ -1,0 +1,1097 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F02066F4CD7DF1615E4694D2027035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */; };
+		036556A4FAA439D44C9D84533ED63D37 /* PIXUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0582998A3C5BB58CB6F9F38A75E18D63 /* PIXUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		092FE9A18959D144B64FFF3C55F2A782 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D293E53EB5C50E56ECF834DB03FB19E3 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D65A45D529A363CC9FB53AB72656377 /* OMGFormURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = D25A97157456B201FB4ABD6AEC6F1023 /* OMGFormURLEncode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D9250BB57E52CBF370807A47DC503BD /* NSArray+PIXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCE5975422CB34136AF25CF331934F8 /* NSArray+PIXCategory.m */; };
+		10F6C0CE4E83B28AC6111915738BF03E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */; };
+		119956604DB27FE3225BD80530CAE2E1 /* PIXBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BFB9E49128B0400A423782DE18BA44 /* PIXBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16C4665F3B3D5E65A25215D5EAC5BE5F /* PIXURLSessionDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD52CAED0D89E799BE120EA25F3C37D /* PIXURLSessionDelegateHandler.m */; };
+		21737AD783FBF55947E874B0FB969217 /* OMGHTTPURLRQ.h in Headers */ = {isa = PBXBuildFile; fileRef = 787CBFE27BFC18338BC592CE82D9BB53 /* OMGHTTPURLRQ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27BD22EC63164FA7E5B28E066F96E57E /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C17B1E62B755E5EE7B6B3C00F6FAFB19 /* OARequestParameter.m */; };
+		32F7D2CEA275853C8BC27E5268791379 /* PIXGuestbook.h in Headers */ = {isa = PBXBuildFile; fileRef = B66E3F4D433ABE21641E8B3347F5A7E0 /* PIXGuestbook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356F413BD84217076C9A249E77D6D019 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F493BC5B68AC3BDB0FA9453AAF53DA0 /* NSDictionary+QueryString.m */; };
+		3D66D47066101D9A814B3673F7492168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */; };
+		3DAEB55109B42810211745A25AD003FB /* PIXGlossary.h in Headers */ = {isa = PBXBuildFile; fileRef = 359A2F3942CEEBF57D061DDC42F2C9BA /* PIXGlossary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4018544A6EB83106543D7CF214E6B512 /* PIXGuestbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 149FA5B256DE806300E63F4927F303B2 /* PIXGuestbook.m */; };
+		4A71A3541312B3165953161422AEA53F /* NSMutableURLRequest+PIXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = ED85B83058C9ADC9CAB108A05BE52C6B /* NSMutableURLRequest+PIXCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C9DF2975B0D1C1C0A71126DB440B0FF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766729B1A7A938B3E3C58BEC56B4862 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4E2C4E98BF93CE475041282C59B11095 /* PIXAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FA898F365EC0C1009CD8E2D436098E /* PIXAlbum.m */; };
+		528F60D9D91661F5C6BB2C771D8EF251 /* PIX-cocoa-oauth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24A4054884A68BBCF0920937B226922 /* PIX-cocoa-oauth-dummy.m */; };
+		55B0F821FC1F82807090DE84713CF03C /* LROAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F551EDE919195CCF52B384A7A3AF1B7 /* LROAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57C2EDB24CE396160023C90A9435F291 /* OMGHTTPURLRQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C30F4C488CD716BCF03FE9B9CC45DAD8 /* OMGHTTPURLRQ-dummy.m */; };
+		58D0DA07FD022614692DE5DB7B398B75 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A6639B2264EDB5E4FD74194BCECE5BD9 /* zh-Hant.lproj */; };
+		5FDDB42D8102C99C4624884258120A7F /* NSObject+PIXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BE25E313C5E6E606556132AF71577D /* NSObject+PIXCategory.m */; };
+		68EDEC8A6E12DAA16EF761678129ACF8 /* PIXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D989779AA349CD76F5AEC83396CD5460 /* PIXUser.m */; };
+		6BBEB4E0AD2F9A753AC5C5F589F7431B /* PIXIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C9F5FBAEB83D2A5041D3D929E2FB0 /* PIXIndex.m */; };
+		6D6F34BA13F14736FFA026EDCFAACE9A /* PIXAPIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E863B9ECB233A6DC30C23F16A4FE1 /* PIXAPIHandler.m */; };
+		6F82178E7CF47323068A10AB73FABF47 /* NSDictionary+PIXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55819A40689AC1EFC2E7DDECB0C0E6E7 /* NSDictionary+PIXCategory.m */; };
+		70FBDAB0AF89D5CF760CCAF4642D8A18 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 25F18F17A21324C1479FA074C57F5782 /* en.lproj */; };
+		796BA5D2E9A96F8A0050FD4AA0BC9966 /* PIXBlog.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A26B4DD079754513EC609FCBB197F /* PIXBlog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F74D81B002AC09337885369BF82B66C /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7FFB242F8828FB62436D5B64AE0DBB /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8409186526757F69397EDAA9D951B0EB /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 758344D519544DF875D18067A08DF189 /* NSString+QueryString.m */; };
+		86400AC1084D99A11E5C7DA095485CD2 /* PIXNETSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC7B481CE03975D1541A3657D0C190A /* PIXNETSDK.m */; };
+		8711D54A5C08CD4BDD11573ED780B20F /* LRURLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F88DE2D8A726103C358DF76A100593 /* LRURLRequestOperation.m */; };
+		8749954D1A18151332E48D9CAD9712C6 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0650F8904A8F8AAD2BE0EEA37EA86350 /* OMGUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C699285E0C56C97D7CFE804BF7A0993 /* NSString+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3FBD7D34053F118B80278C7E89E46B /* NSString+QueryString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C4B5DB8FF572742AF2F63AB70928DC /* PIXFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = D50004AB69A5F70AAD877A6F4E9AC12F /* PIXFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92419B9E394F6CDA53AE929A921EF9B5 /* PIXAPIHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB0AD38993BF225C056940732879661 /* PIXAPIHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		950891A99042F803B5B5447045F685C6 /* PIXMainpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCCACC259AFDD82B201C7ECC9DDEE06 /* PIXMainpage.m */; };
+		993D6C0C542F2DB0E1B4CB8CC4339B29 /* NSError+PIXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCBD398C12E8718EE6C9845222F3C05 /* NSError+PIXCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D66968FDEF5461C24F5CA017324312B /* LRURLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B00DF9FAA1D5AC848F450F408CB2FA4F /* LRURLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EDE8E4DB0AAF3723197AE436D249167 /* NSDictionary+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 11988B0D16D57B372D7E6A3ACF7847AA /* NSDictionary+QueryString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2AC2491AB6D0F5C0FE3D9E30DD9A4B9 /* LROAuth2ClientDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B9F290BD3945E1A102CB0050EC7A5A7B /* LROAuth2ClientDelegateHandler.m */; };
+		A2BDB51C489373F5C26DC78617370F9D /* PIXGlossary.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5802E75F7A3339B1DF761C5B0DE317 /* PIXGlossary.m */; };
+		A9A3910A3CD7CE45996EB4288973683A /* Pods-EmmaSDKTester-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91354DB186C006A48779A137563B05 /* Pods-EmmaSDKTester-dummy.m */; };
+		AA9BA61A6BE2CC41EFCC71E3F7552E9D /* PIXCredentialStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C40D721815A0F52FF411A2C26DCC13 /* PIXCredentialStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA870CD0B5C02E19A35D98F6DC66608 /* NSMutableURLRequest+PIXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F3AFF2F967DD1298F321221E8D1939 /* NSMutableURLRequest+PIXCategory.m */; };
+		AFD2A6556DFE8062B3EBB7FD39A76C52 /* PIXNETSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 265E6A64CBE59AFAB32188F1D5A0BA65 /* PIXNETSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE1D71887DFF1B93563180CF65D2607 /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9EE9FB22B47894DDF276824A555C76 /* OARequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2EBD3099BE3F530DB1D4FABB8DD3491 /* PIXURLSessionDelegateHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC284C52A23EF4F4F159EB650868441 /* PIXURLSessionDelegateHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6ED6C20F2797B162E1A56FD3A466A5F /* LROAuth2ClientDelegateHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DCBCCB2603C01092B3E9E693C4658D /* LROAuth2ClientDelegateHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB49AD70BDE9059455C8B629DFB1A5AA /* PIXBlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE73CB1D598B133157323EA5D267FFE /* PIXBlog.m */; };
+		BDEE8151F4B81330AEB64CF9EC9853AD /* PIXMainpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9934B6701BBA40E3033D4DDCA4605B93 /* PIXMainpage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF04814F9D5ED16313F22294BD134525 /* NSError+PIXCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 59462DA239F7B3424E41790991275E0A /* NSError+PIXCategory.m */; };
+		BFB1C7273EAA122BEF2E62802C2D671E /* PIXCredentialStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9420DBC1EAD166DBDB8CB14132CA21 /* PIXCredentialStorage.m */; };
+		C1B193A95489CE77C6E197BDDA2FFEC4 /* NSObject+PIXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B574858A6B6A7E677AA0CA9BA79166 /* NSObject+PIXCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1BF15D549E97DEB6022BA5C37870BBB /* OMGFormURLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = B91278CB68245CE8EED9F6F9286A716D /* OMGFormURLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A9DB936A23F82458C5FFBF80DEB885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */; };
+		C500BA4D7B6B86FFBAD4C6A0EBCAC082 /* LROAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = E44B5BA0C1D02BA2DA01EEB9C11FF9A3 /* LROAuth2Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62F0F4FB1662DC9049DD18953192338 /* PIXNET-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2B6256A8FA948D28A6F874629D53B7 /* PIXNET-iOS-SDK-dummy.m */; };
+		C712FCF858C2BACD30A842241F1B8739 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 41488126CFB1EDBFF7E2EB9E6CDB4CFE /* GCOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CBB0BCBAFB17AD1E3C7ED70E49E6B216 /* GCOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C8A3A8B3CD812F1B54A5490942CAE9 /* GCOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBE420334F8050242668AC52391B4846 /* NSDictionary+PIXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9E0A5C20D27F4DEEFC105E535C1CD2 /* NSDictionary+PIXCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91829589D1C652E20E1C5EF19A66681 /* NSURL+QueryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B121F0FF5992BA1DE46E7CB2BC451E /* NSURL+QueryInspector.m */; };
+		DB8921875692F5222D5FB7E973382CFF /* PIXBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F949D00D050169B1AEFDE6B1C2C0917 /* PIXBlock.m */; };
+		DBCE18F5908AA7E29751C5BC83FAC80C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5A450345A3FBE09F014BE45CF66912 /* CoreLocation.framework */; };
+		DD26C9DA3A47B7A2009D414E7C4DF905 /* NSArray+PIXCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC24A2636146BF9AB96ECC2AA36FB4A /* NSArray+PIXCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEA373162622245BBD8140D0CF7386E7 /* NSURL+QueryInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BEB0A463CD66DB3CB47C1DC6B53138 /* NSURL+QueryInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2712EFC9E6E9ED1422AA2F78EC90982 /* PIXAlbum.h in Headers */ = {isa = PBXBuildFile; fileRef = 183522F7889D01B070ED3E4FC9B55281 /* PIXAlbum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA89579623872BF1936FBAACCC496F11 /* LROAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D349B51AAC26CA30C298B15A84D4817 /* LROAuth2Client.m */; };
+		F0E6D1D95CAF1A641D8C1C205A635962 /* LROAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 239D401FE12302544136B2D192139B06 /* LROAuth2AccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2A50F0C4A981D92B39537D1E1194F0B /* LROAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2EF43E0DE7CF0CB1AA80C7C84BBED6 /* LROAuth2AccessToken.m */; };
+		F4E21AB3A3F8030FC38AD4B953080433 /* PIXIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = E7DB4E2EBC72F2009174B246621547CB /* PIXIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC43D411E152DD44612D67F214C80437 /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C39866A1D57F92D30C9BD3DB87B639 /* OMGHTTPURLRQ.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FD854E66BBD6C483FC5F8EF0674E6C35 /* PIXFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4077862CEFB0E0CAF2C2173BAB9CA8 /* PIXFriend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED46E5D2B60A712DCDDB3155F2E8712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DDE2707CA213F238A1FAAB2F335E07;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		501A52D396051CED7533277E8375C273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DDE2707CA213F238A1FAAB2F335E07;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		8F4C78D8A0EFF41B152C97ED279E8327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB6CE4B2F6701CABD30C1DEC8BE302C;
+			remoteInfo = "PIX-cocoa-oauth";
+		};
+		A1B46913258CCC41E2CEE43FAAC2639F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB6CE4B2F6701CABD30C1DEC8BE302C;
+			remoteInfo = "PIX-cocoa-oauth";
+		};
+		A5E2927A1BF33F57881CEFA345DD8F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15685998DCD11FB214587D0B19979407;
+			remoteInfo = "PIXNET-iOS-SDK-PIXNET-iOS-SDK";
+		};
+		FBD50ED61191E0C62219E49F9F2A9192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5722794D137C5D1AB889A9600F892A1B;
+			remoteInfo = "PIXNET-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BE25E313C5E6E606556132AF71577D /* NSObject+PIXCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PIXCategory.m"; path = "PIXNET-iOS-SDK/Classes/NSObject+PIXCategory.m"; sourceTree = "<group>"; };
+		04B121F0FF5992BA1DE46E7CB2BC451E /* NSURL+QueryInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+QueryInspector.m"; path = "PIXNET-iOS-SDK/Classes/NSURL+QueryInspector.m"; sourceTree = "<group>"; };
+		0582998A3C5BB58CB6F9F38A75E18D63 /* PIXUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXUser.h; path = "PIXNET-iOS-SDK/Classes/PIXUser.h"; sourceTree = "<group>"; };
+		0650F8904A8F8AAD2BE0EEA37EA86350 /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = Sources/OMGUserAgent.m; sourceTree = "<group>"; };
+		089A26B4DD079754513EC609FCBB197F /* PIXBlog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXBlog.h; path = "PIXNET-iOS-SDK/Classes/PIXBlog.h"; sourceTree = "<group>"; };
+		0A2EF43E0DE7CF0CB1AA80C7C84BBED6 /* LROAuth2AccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LROAuth2AccessToken.m; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LROAuth2AccessToken.m"; sourceTree = "<group>"; };
+		0C35932B4001609695142A1EA7201D6A /* libOMGHTTPURLRQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMGHTTPURLRQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE73CB1D598B133157323EA5D267FFE /* PIXBlog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXBlog.m; path = "PIXNET-iOS-SDK/Classes/PIXBlog.m"; sourceTree = "<group>"; };
+		0F551EDE919195CCF52B384A7A3AF1B7 /* LROAuth2ClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROAuth2ClientDelegate.h; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LROAuth2ClientDelegate.h"; sourceTree = "<group>"; };
+		11988B0D16D57B372D7E6A3ACF7847AA /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+QueryString.h"; path = "PIXNET-iOS-SDK/Classes/NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		149FA5B256DE806300E63F4927F303B2 /* PIXGuestbook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXGuestbook.m; path = "PIXNET-iOS-SDK/Classes/PIXGuestbook.m"; sourceTree = "<group>"; };
+		1533E6A4FC936D0E0E46C5B28D75A695 /* Pods-EmmaSDKTester-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmmaSDKTester-resources.sh"; sourceTree = "<group>"; };
+		183522F7889D01B070ED3E4FC9B55281 /* PIXAlbum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXAlbum.h; path = "PIXNET-iOS-SDK/Classes/PIXAlbum.h"; sourceTree = "<group>"; };
+		19BFB9E49128B0400A423782DE18BA44 /* PIXBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXBlock.h; path = "PIXNET-iOS-SDK/Classes/PIXBlock.h"; sourceTree = "<group>"; };
+		19EF196C6CC70AECFDF91025AC63A7A8 /* PIX-cocoa-oauth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PIX-cocoa-oauth-prefix.pch"; sourceTree = "<group>"; };
+		1A3FBD7D34053F118B80278C7E89E46B /* NSString+QueryString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QueryString.h"; path = "PIXNET-iOS-SDK/Classes/NSString+QueryString.h"; sourceTree = "<group>"; };
+		1D349B51AAC26CA30C298B15A84D4817 /* LROAuth2Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LROAuth2Client.m; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LROAuth2Client.m"; sourceTree = "<group>"; };
+		22E67DD76F495C96F6BC8ACCB636EB7A /* libPods-EmmaSDKTester.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmmaSDKTester.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		239D401FE12302544136B2D192139B06 /* LROAuth2AccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROAuth2AccessToken.h; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LROAuth2AccessToken.h"; sourceTree = "<group>"; };
+		25F18F17A21324C1479FA074C57F5782 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = "PIXNET-iOS-SDK/LocalizableStrings/en.lproj"; sourceTree = "<group>"; };
+		265E6A64CBE59AFAB32188F1D5A0BA65 /* PIXNETSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXNETSDK.h; path = "PIXNET-iOS-SDK/Classes/PIXNETSDK.h"; sourceTree = "<group>"; };
+		2B9EE9FB22B47894DDF276824A555C76 /* OARequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = "PIXNET-iOS-SDK/Classes/OARequestParameter.h"; sourceTree = "<group>"; };
+		359A2F3942CEEBF57D061DDC42F2C9BA /* PIXGlossary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXGlossary.h; path = "PIXNET-iOS-SDK/Classes/PIXGlossary.h"; sourceTree = "<group>"; };
+		36B574858A6B6A7E677AA0CA9BA79166 /* NSObject+PIXCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PIXCategory.h"; path = "PIXNET-iOS-SDK/Classes/NSObject+PIXCategory.h"; sourceTree = "<group>"; };
+		41488126CFB1EDBFF7E2EB9E6CDB4CFE /* GCOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GCOAuth.m; sourceTree = "<group>"; };
+		4A9C46F832B36877201F8F4351F01540 /* Pods-EmmaSDKTester-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmmaSDKTester-acknowledgements.markdown"; sourceTree = "<group>"; };
+		543BDD3F2722E198281C765326EF0E69 /* Pods-EmmaSDKTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmmaSDKTester.debug.xcconfig"; sourceTree = "<group>"; };
+		55819A40689AC1EFC2E7DDECB0C0E6E7 /* NSDictionary+PIXCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PIXCategory.m"; path = "PIXNET-iOS-SDK/Classes/NSDictionary+PIXCategory.m"; sourceTree = "<group>"; };
+		59462DA239F7B3424E41790991275E0A /* NSError+PIXCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+PIXCategory.m"; path = "PIXNET-iOS-SDK/Classes/NSError+PIXCategory.m"; sourceTree = "<group>"; };
+		5F493BC5B68AC3BDB0FA9453AAF53DA0 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+QueryString.m"; path = "PIXNET-iOS-SDK/Classes/NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		62F23A4837395D7FA2BF16E59646B9EE /* Pods-EmmaSDKTester-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmmaSDKTester-acknowledgements.plist"; sourceTree = "<group>"; };
+		66FA898F365EC0C1009CD8E2D436098E /* PIXAlbum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXAlbum.m; path = "PIXNET-iOS-SDK/Classes/PIXAlbum.m"; sourceTree = "<group>"; };
+		6CC284C52A23EF4F4F159EB650868441 /* PIXURLSessionDelegateHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXURLSessionDelegateHandler.h; path = "PIXNET-iOS-SDK/Classes/PIXURLSessionDelegateHandler.h"; sourceTree = "<group>"; };
+		6D9420DBC1EAD166DBDB8CB14132CA21 /* PIXCredentialStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXCredentialStorage.m; path = "PIXNET-iOS-SDK/Classes/PIXCredentialStorage.m"; sourceTree = "<group>"; };
+		71E5F047F8943C6136E19405931DA966 /* libPIXNET-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPIXNET-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758344D519544DF875D18067A08DF189 /* NSString+QueryString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QueryString.m"; path = "PIXNET-iOS-SDK/Classes/NSString+QueryString.m"; sourceTree = "<group>"; };
+		787CBFE27BFC18338BC592CE82D9BB53 /* OMGHTTPURLRQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGHTTPURLRQ.h; path = Sources/OMGHTTPURLRQ.h; sourceTree = "<group>"; };
+		7FCBD398C12E8718EE6C9845222F3C05 /* NSError+PIXCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+PIXCategory.h"; path = "PIXNET-iOS-SDK/Classes/NSError+PIXCategory.h"; sourceTree = "<group>"; };
+		837A5B394995C786A446FF49E766B8A7 /* libPIX-cocoa-oauth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPIX-cocoa-oauth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C8A3A8B3CD812F1B54A5490942CAE9 /* GCOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GCOAuth.h; sourceTree = "<group>"; };
+		8766729B1A7A938B3E3C58BEC56B4862 /* NSData+Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		8CCCACC259AFDD82B201C7ECC9DDEE06 /* PIXMainpage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXMainpage.m; path = "PIXNET-iOS-SDK/Classes/PIXMainpage.m"; sourceTree = "<group>"; };
+		8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PIXNET-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		8EB0AD38993BF225C056940732879661 /* PIXAPIHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXAPIHandler.h; path = "PIXNET-iOS-SDK/Classes/PIXAPIHandler.h"; sourceTree = "<group>"; };
+		9934B6701BBA40E3033D4DDCA4605B93 /* PIXMainpage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXMainpage.h; path = "PIXNET-iOS-SDK/Classes/PIXMainpage.h"; sourceTree = "<group>"; };
+		9BC24A2636146BF9AB96ECC2AA36FB4A /* NSArray+PIXCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PIXCategory.h"; path = "PIXNET-iOS-SDK/Classes/NSArray+PIXCategory.h"; sourceTree = "<group>"; };
+		9F4C9F5FBAEB83D2A5041D3D929E2FB0 /* PIXIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXIndex.m; path = "PIXNET-iOS-SDK/Classes/PIXIndex.m"; sourceTree = "<group>"; };
+		9F949D00D050169B1AEFDE6B1C2C0917 /* PIXBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXBlock.m; path = "PIXNET-iOS-SDK/Classes/PIXBlock.m"; sourceTree = "<group>"; };
+		A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.xcconfig; sourceTree = "<group>"; };
+		A5F88DE2D8A726103C358DF76A100593 /* LRURLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRURLRequestOperation.m; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LRURLRequestOperation.m"; sourceTree = "<group>"; };
+		A6639B2264EDB5E4FD74194BCECE5BD9 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "PIXNET-iOS-SDK/LocalizableStrings/zh-Hant.lproj"; sourceTree = "<group>"; };
+		B00DF9FAA1D5AC848F450F408CB2FA4F /* LRURLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRURLRequestOperation.h; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LRURLRequestOperation.h"; sourceTree = "<group>"; };
+		B4C39866A1D57F92D30C9BD3DB87B639 /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGHTTPURLRQ.m; path = Sources/OMGHTTPURLRQ.m; sourceTree = "<group>"; };
+		B66E3F4D433ABE21641E8B3347F5A7E0 /* PIXGuestbook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXGuestbook.h; path = "PIXNET-iOS-SDK/Classes/PIXGuestbook.h"; sourceTree = "<group>"; };
+		B91278CB68245CE8EED9F6F9286A716D /* OMGFormURLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGFormURLEncode.h; path = Sources/OMGFormURLEncode.h; sourceTree = "<group>"; };
+		B9F290BD3945E1A102CB0050EC7A5A7B /* LROAuth2ClientDelegateHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LROAuth2ClientDelegateHandler.m; path = "PIXNET-iOS-SDK/Classes/LROAuth2ClientDelegateHandler.m"; sourceTree = "<group>"; };
+		BA00E3DC4C80B192754849333554B073 /* PIXNET-iOS-SDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PIXNET-iOS-SDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4077862CEFB0E0CAF2C2173BAB9CA8 /* PIXFriend.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXFriend.m; path = "PIXNET-iOS-SDK/Classes/PIXFriend.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC29FB3BAAB9586ECF4478DD1FC84EC9 /* OMGHTTPURLRQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-prefix.pch"; sourceTree = "<group>"; };
+		BD2B6256A8FA948D28A6F874629D53B7 /* PIXNET-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PIXNET-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		BDCE5975422CB34136AF25CF331934F8 /* NSArray+PIXCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PIXCategory.m"; path = "PIXNET-iOS-SDK/Classes/NSArray+PIXCategory.m"; sourceTree = "<group>"; };
+		BE5802E75F7A3339B1DF761C5B0DE317 /* PIXGlossary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXGlossary.m; path = "PIXNET-iOS-SDK/Classes/PIXGlossary.m"; sourceTree = "<group>"; };
+		C17B1E62B755E5EE7B6B3C00F6FAFB19 /* OARequestParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OARequestParameter.m; path = "PIXNET-iOS-SDK/Classes/OARequestParameter.m"; sourceTree = "<group>"; };
+		C1C40D721815A0F52FF411A2C26DCC13 /* PIXCredentialStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXCredentialStorage.h; path = "PIXNET-iOS-SDK/Classes/PIXCredentialStorage.h"; sourceTree = "<group>"; };
+		C24A4054884A68BBCF0920937B226922 /* PIX-cocoa-oauth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PIX-cocoa-oauth-dummy.m"; sourceTree = "<group>"; };
+		C24E863B9ECB233A6DC30C23F16A4FE1 /* PIXAPIHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXAPIHandler.m; path = "PIXNET-iOS-SDK/Classes/PIXAPIHandler.m"; sourceTree = "<group>"; };
+		C30F4C488CD716BCF03FE9B9CC45DAD8 /* OMGHTTPURLRQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMGHTTPURLRQ-dummy.m"; sourceTree = "<group>"; };
+		C6BEB0A463CD66DB3CB47C1DC6B53138 /* NSURL+QueryInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+QueryInspector.h"; path = "PIXNET-iOS-SDK/Classes/NSURL+QueryInspector.h"; sourceTree = "<group>"; };
+		CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDD52CAED0D89E799BE120EA25F3C37D /* PIXURLSessionDelegateHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXURLSessionDelegateHandler.m; path = "PIXNET-iOS-SDK/Classes/PIXURLSessionDelegateHandler.m"; sourceTree = "<group>"; };
+		CF55A090FEDE7BA71BDC7E43A6EF487E /* Pods-EmmaSDKTester-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmmaSDKTester-frameworks.sh"; sourceTree = "<group>"; };
+		D25A97157456B201FB4ABD6AEC6F1023 /* OMGFormURLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGFormURLEncode.m; path = Sources/OMGFormURLEncode.m; sourceTree = "<group>"; };
+		D293E53EB5C50E56ECF834DB03FB19E3 /* NSData+Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		D4DCBCCB2603C01092B3E9E693C4658D /* LROAuth2ClientDelegateHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROAuth2ClientDelegateHandler.h; path = "PIXNET-iOS-SDK/Classes/LROAuth2ClientDelegateHandler.h"; sourceTree = "<group>"; };
+		D50004AB69A5F70AAD877A6F4E9AC12F /* PIXFriend.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXFriend.h; path = "PIXNET-iOS-SDK/Classes/PIXFriend.h"; sourceTree = "<group>"; };
+		D989779AA349CD76F5AEC83396CD5460 /* PIXUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXUser.m; path = "PIXNET-iOS-SDK/Classes/PIXUser.m"; sourceTree = "<group>"; };
+		DDC7B481CE03975D1541A3657D0C190A /* PIXNETSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PIXNETSDK.m; path = "PIXNET-iOS-SDK/Classes/PIXNETSDK.m"; sourceTree = "<group>"; };
+		E1F3AFF2F967DD1298F321221E8D1939 /* NSMutableURLRequest+PIXCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+PIXCategory.m"; path = "PIXNET-iOS-SDK/Classes/NSMutableURLRequest+PIXCategory.m"; sourceTree = "<group>"; };
+		E44B5BA0C1D02BA2DA01EEB9C11FF9A3 /* LROAuth2Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LROAuth2Client.h; path = "PIXNET-iOS-SDK/Classes/LROAuth2Client/LROAuth2Client.h"; sourceTree = "<group>"; };
+		E7DB4E2EBC72F2009174B246621547CB /* PIXIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PIXIndex.h; path = "PIXNET-iOS-SDK/Classes/PIXIndex.h"; sourceTree = "<group>"; };
+		EA41570DA8BD76C19A14E033C3CDBC95 /* PIXNET-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PIXNET-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		EB5A450345A3FBE09F014BE45CF66912 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PIX-cocoa-oauth.xcconfig"; sourceTree = "<group>"; };
+		ED7FFB242F8828FB62436D5B64AE0DBB /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = Sources/OMGUserAgent.h; sourceTree = "<group>"; };
+		ED85B83058C9ADC9CAB108A05BE52C6B /* NSMutableURLRequest+PIXCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+PIXCategory.h"; path = "PIXNET-iOS-SDK/Classes/NSMutableURLRequest+PIXCategory.h"; sourceTree = "<group>"; };
+		EE9E0A5C20D27F4DEEFC105E535C1CD2 /* NSDictionary+PIXCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PIXCategory.h"; path = "PIXNET-iOS-SDK/Classes/NSDictionary+PIXCategory.h"; sourceTree = "<group>"; };
+		F7D2047A641CD14CE2767B678F3918E8 /* Pods-EmmaSDKTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmmaSDKTester.release.xcconfig"; sourceTree = "<group>"; };
+		FB91354DB186C006A48779A137563B05 /* Pods-EmmaSDKTester-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmmaSDKTester-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0901C5E9833305B84607729DF70A3770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6DF7F2949894FC99A8B4FF2E378F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A9DB936A23F82458C5FFBF80DEB885 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6EC1FD0617A58D6C766BD050AFB11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6C0CE4E83B28AC6111915738BF03E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8AC5FECC2D2E565371D673AD02FBA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCE18F5908AA7E29751C5BC83FAC80C /* CoreLocation.framework in Frameworks */,
+				3D66D47066101D9A814B3673F7492168 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F183BE6812E53FB9D090DAA8C8EEAFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F02066F4CD7DF1615E4694D2027035 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F08D516E97E3535CB540D653EFFB48 /* FormURLEncode */ = {
+			isa = PBXGroup;
+			children = (
+				B91278CB68245CE8EED9F6F9286A716D /* OMGFormURLEncode.h */,
+				D25A97157456B201FB4ABD6AEC6F1023 /* OMGFormURLEncode.m */,
+			);
+			name = FormURLEncode;
+			sourceTree = "<group>";
+		};
+		14A4CD507E572FF80BA6D23DB9D15ED2 /* Pods-EmmaSDKTester */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C46F832B36877201F8F4351F01540 /* Pods-EmmaSDKTester-acknowledgements.markdown */,
+				62F23A4837395D7FA2BF16E59646B9EE /* Pods-EmmaSDKTester-acknowledgements.plist */,
+				FB91354DB186C006A48779A137563B05 /* Pods-EmmaSDKTester-dummy.m */,
+				CF55A090FEDE7BA71BDC7E43A6EF487E /* Pods-EmmaSDKTester-frameworks.sh */,
+				1533E6A4FC936D0E0E46C5B28D75A695 /* Pods-EmmaSDKTester-resources.sh */,
+				543BDD3F2722E198281C765326EF0E69 /* Pods-EmmaSDKTester.debug.xcconfig */,
+				F7D2047A641CD14CE2767B678F3918E8 /* Pods-EmmaSDKTester.release.xcconfig */,
+			);
+			name = "Pods-EmmaSDKTester";
+			path = "Target Support Files/Pods-EmmaSDKTester";
+			sourceTree = "<group>";
+		};
+		2407A80A0E66AF0502C87E82CFE70CCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25F18F17A21324C1479FA074C57F5782 /* en.lproj */,
+				A6639B2264EDB5E4FD74194BCECE5BD9 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3A8A7119445A20423DABE24ADC377B34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */,
+				C24A4054884A68BBCF0920937B226922 /* PIX-cocoa-oauth-dummy.m */,
+				19EF196C6CC70AECFDF91025AC63A7A8 /* PIX-cocoa-oauth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PIX-cocoa-oauth";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937FACAD4003ACE631748D683354DE99 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BCBD13803E89D33D1A3CCBD3E27112A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D82186B668DACCE82C37A725D556AB29 /* OMGHTTPURLRQ */,
+				B3A41E35687BE89015553CC617CEAD25 /* PIX-cocoa-oauth */,
+				E8D68E5E3AC4591640B83F0190B2120D /* PIXNET-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5ACB79B4D3155456EFF20F58B1576458 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */,
+				BD2B6256A8FA948D28A6F874629D53B7 /* PIXNET-iOS-SDK-dummy.m */,
+				EA41570DA8BD76C19A14E033C3CDBC95 /* PIXNET-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PIXNET-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4BCBD13803E89D33D1A3CCBD3E27112A /* Pods */,
+				FFB31410F8479C445C46C7BF2189EA78 /* Products */,
+				9BB21365BF57BD519F09F9E6D1BDB220 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		937FACAD4003ACE631748D683354DE99 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB5A450345A3FBE09F014BE45CF66912 /* CoreLocation.framework */,
+				CAFA848EA68D9565CB8B38A31CFCA55B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9BB21365BF57BD519F09F9E6D1BDB220 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A4CD507E572FF80BA6D23DB9D15ED2 /* Pods-EmmaSDKTester */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3A41E35687BE89015553CC617CEAD25 /* PIX-cocoa-oauth */ = {
+			isa = PBXGroup;
+			children = (
+				83C8A3A8B3CD812F1B54A5490942CAE9 /* GCOAuth.h */,
+				41488126CFB1EDBFF7E2EB9E6CDB4CFE /* GCOAuth.m */,
+				D293E53EB5C50E56ECF834DB03FB19E3 /* NSData+Base64.h */,
+				8766729B1A7A938B3E3C58BEC56B4862 /* NSData+Base64.m */,
+				3A8A7119445A20423DABE24ADC377B34 /* Support Files */,
+			);
+			path = "PIX-cocoa-oauth";
+			sourceTree = "<group>";
+		};
+		B722E817A461EB036B8F3269BF58B355 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */,
+				C30F4C488CD716BCF03FE9B9CC45DAD8 /* OMGHTTPURLRQ-dummy.m */,
+				BC29FB3BAAB9586ECF4478DD1FC84EC9 /* OMGHTTPURLRQ-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMGHTTPURLRQ";
+			sourceTree = "<group>";
+		};
+		CE915ADA63BA4A4EB4EDF2BEF2E22BE5 /* RQ */ = {
+			isa = PBXGroup;
+			children = (
+				787CBFE27BFC18338BC592CE82D9BB53 /* OMGHTTPURLRQ.h */,
+				B4C39866A1D57F92D30C9BD3DB87B639 /* OMGHTTPURLRQ.m */,
+			);
+			name = RQ;
+			sourceTree = "<group>";
+		};
+		D469A0CCEE65A180E104EBC0DD4F93B9 /* UserAgent */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FFB242F8828FB62436D5B64AE0DBB /* OMGUserAgent.h */,
+				0650F8904A8F8AAD2BE0EEA37EA86350 /* OMGUserAgent.m */,
+			);
+			name = UserAgent;
+			sourceTree = "<group>";
+		};
+		D82186B668DACCE82C37A725D556AB29 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				13F08D516E97E3535CB540D653EFFB48 /* FormURLEncode */,
+				CE915ADA63BA4A4EB4EDF2BEF2E22BE5 /* RQ */,
+				B722E817A461EB036B8F3269BF58B355 /* Support Files */,
+				D469A0CCEE65A180E104EBC0DD4F93B9 /* UserAgent */,
+			);
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		E8D68E5E3AC4591640B83F0190B2120D /* PIXNET-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				239D401FE12302544136B2D192139B06 /* LROAuth2AccessToken.h */,
+				0A2EF43E0DE7CF0CB1AA80C7C84BBED6 /* LROAuth2AccessToken.m */,
+				E44B5BA0C1D02BA2DA01EEB9C11FF9A3 /* LROAuth2Client.h */,
+				1D349B51AAC26CA30C298B15A84D4817 /* LROAuth2Client.m */,
+				0F551EDE919195CCF52B384A7A3AF1B7 /* LROAuth2ClientDelegate.h */,
+				D4DCBCCB2603C01092B3E9E693C4658D /* LROAuth2ClientDelegateHandler.h */,
+				B9F290BD3945E1A102CB0050EC7A5A7B /* LROAuth2ClientDelegateHandler.m */,
+				B00DF9FAA1D5AC848F450F408CB2FA4F /* LRURLRequestOperation.h */,
+				A5F88DE2D8A726103C358DF76A100593 /* LRURLRequestOperation.m */,
+				9BC24A2636146BF9AB96ECC2AA36FB4A /* NSArray+PIXCategory.h */,
+				BDCE5975422CB34136AF25CF331934F8 /* NSArray+PIXCategory.m */,
+				EE9E0A5C20D27F4DEEFC105E535C1CD2 /* NSDictionary+PIXCategory.h */,
+				55819A40689AC1EFC2E7DDECB0C0E6E7 /* NSDictionary+PIXCategory.m */,
+				11988B0D16D57B372D7E6A3ACF7847AA /* NSDictionary+QueryString.h */,
+				5F493BC5B68AC3BDB0FA9453AAF53DA0 /* NSDictionary+QueryString.m */,
+				7FCBD398C12E8718EE6C9845222F3C05 /* NSError+PIXCategory.h */,
+				59462DA239F7B3424E41790991275E0A /* NSError+PIXCategory.m */,
+				ED85B83058C9ADC9CAB108A05BE52C6B /* NSMutableURLRequest+PIXCategory.h */,
+				E1F3AFF2F967DD1298F321221E8D1939 /* NSMutableURLRequest+PIXCategory.m */,
+				36B574858A6B6A7E677AA0CA9BA79166 /* NSObject+PIXCategory.h */,
+				03BE25E313C5E6E606556132AF71577D /* NSObject+PIXCategory.m */,
+				1A3FBD7D34053F118B80278C7E89E46B /* NSString+QueryString.h */,
+				758344D519544DF875D18067A08DF189 /* NSString+QueryString.m */,
+				C6BEB0A463CD66DB3CB47C1DC6B53138 /* NSURL+QueryInspector.h */,
+				04B121F0FF5992BA1DE46E7CB2BC451E /* NSURL+QueryInspector.m */,
+				2B9EE9FB22B47894DDF276824A555C76 /* OARequestParameter.h */,
+				C17B1E62B755E5EE7B6B3C00F6FAFB19 /* OARequestParameter.m */,
+				183522F7889D01B070ED3E4FC9B55281 /* PIXAlbum.h */,
+				66FA898F365EC0C1009CD8E2D436098E /* PIXAlbum.m */,
+				8EB0AD38993BF225C056940732879661 /* PIXAPIHandler.h */,
+				C24E863B9ECB233A6DC30C23F16A4FE1 /* PIXAPIHandler.m */,
+				19BFB9E49128B0400A423782DE18BA44 /* PIXBlock.h */,
+				9F949D00D050169B1AEFDE6B1C2C0917 /* PIXBlock.m */,
+				089A26B4DD079754513EC609FCBB197F /* PIXBlog.h */,
+				0CE73CB1D598B133157323EA5D267FFE /* PIXBlog.m */,
+				C1C40D721815A0F52FF411A2C26DCC13 /* PIXCredentialStorage.h */,
+				6D9420DBC1EAD166DBDB8CB14132CA21 /* PIXCredentialStorage.m */,
+				D50004AB69A5F70AAD877A6F4E9AC12F /* PIXFriend.h */,
+				BA4077862CEFB0E0CAF2C2173BAB9CA8 /* PIXFriend.m */,
+				359A2F3942CEEBF57D061DDC42F2C9BA /* PIXGlossary.h */,
+				BE5802E75F7A3339B1DF761C5B0DE317 /* PIXGlossary.m */,
+				B66E3F4D433ABE21641E8B3347F5A7E0 /* PIXGuestbook.h */,
+				149FA5B256DE806300E63F4927F303B2 /* PIXGuestbook.m */,
+				E7DB4E2EBC72F2009174B246621547CB /* PIXIndex.h */,
+				9F4C9F5FBAEB83D2A5041D3D929E2FB0 /* PIXIndex.m */,
+				9934B6701BBA40E3033D4DDCA4605B93 /* PIXMainpage.h */,
+				8CCCACC259AFDD82B201C7ECC9DDEE06 /* PIXMainpage.m */,
+				265E6A64CBE59AFAB32188F1D5A0BA65 /* PIXNETSDK.h */,
+				DDC7B481CE03975D1541A3657D0C190A /* PIXNETSDK.m */,
+				6CC284C52A23EF4F4F159EB650868441 /* PIXURLSessionDelegateHandler.h */,
+				CDD52CAED0D89E799BE120EA25F3C37D /* PIXURLSessionDelegateHandler.m */,
+				0582998A3C5BB58CB6F9F38A75E18D63 /* PIXUser.h */,
+				D989779AA349CD76F5AEC83396CD5460 /* PIXUser.m */,
+				2407A80A0E66AF0502C87E82CFE70CCA /* Resources */,
+				5ACB79B4D3155456EFF20F58B1576458 /* Support Files */,
+			);
+			path = "PIXNET-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		FFB31410F8479C445C46C7BF2189EA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C35932B4001609695142A1EA7201D6A /* libOMGHTTPURLRQ.a */,
+				837A5B394995C786A446FF49E766B8A7 /* libPIX-cocoa-oauth.a */,
+				71E5F047F8943C6136E19405931DA966 /* libPIXNET-iOS-SDK.a */,
+				22E67DD76F495C96F6BC8ACCB636EB7A /* libPods-EmmaSDKTester.a */,
+				BA00E3DC4C80B192754849333554B073 /* PIXNET-iOS-SDK.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		339217A49795D1BA138A6A6471CC32DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB0BCBAFB17AD1E3C7ED70E49E6B216 /* GCOAuth.h in Headers */,
+				092FE9A18959D144B64FFF3C55F2A782 /* NSData+Base64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ED318861E29C54C199D9902B8995E12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BF15D549E97DEB6022BA5C37870BBB /* OMGFormURLEncode.h in Headers */,
+				21737AD783FBF55947E874B0FB969217 /* OMGHTTPURLRQ.h in Headers */,
+				7F74D81B002AC09337885369BF82B66C /* OMGUserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C222EAC35F4F1E5E66FB5A73FF7807F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E6D1D95CAF1A641D8C1C205A635962 /* LROAuth2AccessToken.h in Headers */,
+				C500BA4D7B6B86FFBAD4C6A0EBCAC082 /* LROAuth2Client.h in Headers */,
+				55B0F821FC1F82807090DE84713CF03C /* LROAuth2ClientDelegate.h in Headers */,
+				B6ED6C20F2797B162E1A56FD3A466A5F /* LROAuth2ClientDelegateHandler.h in Headers */,
+				9D66968FDEF5461C24F5CA017324312B /* LRURLRequestOperation.h in Headers */,
+				DD26C9DA3A47B7A2009D414E7C4DF905 /* NSArray+PIXCategory.h in Headers */,
+				CBE420334F8050242668AC52391B4846 /* NSDictionary+PIXCategory.h in Headers */,
+				9EDE8E4DB0AAF3723197AE436D249167 /* NSDictionary+QueryString.h in Headers */,
+				993D6C0C542F2DB0E1B4CB8CC4339B29 /* NSError+PIXCategory.h in Headers */,
+				4A71A3541312B3165953161422AEA53F /* NSMutableURLRequest+PIXCategory.h in Headers */,
+				C1B193A95489CE77C6E197BDDA2FFEC4 /* NSObject+PIXCategory.h in Headers */,
+				8C699285E0C56C97D7CFE804BF7A0993 /* NSString+QueryString.h in Headers */,
+				DEA373162622245BBD8140D0CF7386E7 /* NSURL+QueryInspector.h in Headers */,
+				AFE1D71887DFF1B93563180CF65D2607 /* OARequestParameter.h in Headers */,
+				E2712EFC9E6E9ED1422AA2F78EC90982 /* PIXAlbum.h in Headers */,
+				92419B9E394F6CDA53AE929A921EF9B5 /* PIXAPIHandler.h in Headers */,
+				119956604DB27FE3225BD80530CAE2E1 /* PIXBlock.h in Headers */,
+				796BA5D2E9A96F8A0050FD4AA0BC9966 /* PIXBlog.h in Headers */,
+				AA9BA61A6BE2CC41EFCC71E3F7552E9D /* PIXCredentialStorage.h in Headers */,
+				90C4B5DB8FF572742AF2F63AB70928DC /* PIXFriend.h in Headers */,
+				3DAEB55109B42810211745A25AD003FB /* PIXGlossary.h in Headers */,
+				32F7D2CEA275853C8BC27E5268791379 /* PIXGuestbook.h in Headers */,
+				F4E21AB3A3F8030FC38AD4B953080433 /* PIXIndex.h in Headers */,
+				BDEE8151F4B81330AEB64CF9EC9853AD /* PIXMainpage.h in Headers */,
+				AFD2A6556DFE8062B3EBB7FD39A76C52 /* PIXNETSDK.h in Headers */,
+				B2EBD3099BE3F530DB1D4FABB8DD3491 /* PIXURLSessionDelegateHandler.h in Headers */,
+				036556A4FAA439D44C9D84533ED63D37 /* PIXUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15685998DCD11FB214587D0B19979407 /* PIXNET-iOS-SDK-PIXNET-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E5384F275A14794F960E4E30883A98 /* Build configuration list for PBXNativeTarget "PIXNET-iOS-SDK-PIXNET-iOS-SDK" */;
+			buildPhases = (
+				0B4822B8D450B42792F50562C7E0C332 /* Sources */,
+				0901C5E9833305B84607729DF70A3770 /* Frameworks */,
+				8E22592522DD7DF0702B4B07E10B0CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIXNET-iOS-SDK-PIXNET-iOS-SDK";
+			productName = "PIXNET-iOS-SDK-PIXNET-iOS-SDK";
+			productReference = BA00E3DC4C80B192754849333554B073 /* PIXNET-iOS-SDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		18DDE2707CA213F238A1FAAB2F335E07 /* OMGHTTPURLRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C73BB545C4D7DFD4B6B5E58C1A90C48 /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */;
+			buildPhases = (
+				30B95F5837ACE8518CAAB9960C6C979B /* Sources */,
+				4B6DF7F2949894FC99A8B4FF2E378F6E /* Frameworks */,
+				3ED318861E29C54C199D9902B8995E12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGHTTPURLRQ;
+			productName = OMGHTTPURLRQ;
+			productReference = 0C35932B4001609695142A1EA7201D6A /* libOMGHTTPURLRQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CB6CE4B2F6701CABD30C1DEC8BE302C /* PIX-cocoa-oauth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129A26151BC863C2440EB2225F30ADD0 /* Build configuration list for PBXNativeTarget "PIX-cocoa-oauth" */;
+			buildPhases = (
+				622352AD43165250AED148B81D8C59BA /* Sources */,
+				5B6EC1FD0617A58D6C766BD050AFB11E /* Frameworks */,
+				339217A49795D1BA138A6A6471CC32DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PIX-cocoa-oauth";
+			productName = "PIX-cocoa-oauth";
+			productReference = 837A5B394995C786A446FF49E766B8A7 /* libPIX-cocoa-oauth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		47B7EA367B813E91ECD0CD643B881080 /* Pods-EmmaSDKTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8030A3731CE57F0F6ABAAA4F9DFEB517 /* Build configuration list for PBXNativeTarget "Pods-EmmaSDKTester" */;
+			buildPhases = (
+				258DD70AB8835AEB16AFDEC01B5E75B6 /* Sources */,
+				F183BE6812E53FB9D090DAA8C8EEAFCC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0FD85269180D0A1B8E027A82685F43 /* PBXTargetDependency */,
+				E876AE57325D0350EADF545AA2899E01 /* PBXTargetDependency */,
+				4D44803E2E9ED54E5C5612427F10B6FA /* PBXTargetDependency */,
+			);
+			name = "Pods-EmmaSDKTester";
+			productName = "Pods-EmmaSDKTester";
+			productReference = 22E67DD76F495C96F6BC8ACCB636EB7A /* libPods-EmmaSDKTester.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5722794D137C5D1AB889A9600F892A1B /* PIXNET-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DCF97B8932A9528DFAA65AF3264CF3D /* Build configuration list for PBXNativeTarget "PIXNET-iOS-SDK" */;
+			buildPhases = (
+				E257BA3651EA37F01340C56611772A3D /* Sources */,
+				BA8AC5FECC2D2E565371D673AD02FBA4 /* Frameworks */,
+				6C222EAC35F4F1E5E66FB5A73FF7807F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB15207D891E961D4ABDE39C49B6457 /* PBXTargetDependency */,
+				F11B9A0BAEFE51E98973907EE6DC8912 /* PBXTargetDependency */,
+				3F6928520A21E046D7EB4BC6303ADCCF /* PBXTargetDependency */,
+			);
+			name = "PIXNET-iOS-SDK";
+			productName = "PIXNET-iOS-SDK";
+			productReference = 71E5F047F8943C6136E19405931DA966 /* libPIXNET-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FFB31410F8479C445C46C7BF2189EA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DDE2707CA213F238A1FAAB2F335E07 /* OMGHTTPURLRQ */,
+				3CB6CE4B2F6701CABD30C1DEC8BE302C /* PIX-cocoa-oauth */,
+				5722794D137C5D1AB889A9600F892A1B /* PIXNET-iOS-SDK */,
+				15685998DCD11FB214587D0B19979407 /* PIXNET-iOS-SDK-PIXNET-iOS-SDK */,
+				47B7EA367B813E91ECD0CD643B881080 /* Pods-EmmaSDKTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E22592522DD7DF0702B4B07E10B0CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FBDAB0AF89D5CF760CCAF4642D8A18 /* en.lproj in Resources */,
+				58D0DA07FD022614692DE5DB7B398B75 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B4822B8D450B42792F50562C7E0C332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		258DD70AB8835AEB16AFDEC01B5E75B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A3910A3CD7CE45996EB4288973683A /* Pods-EmmaSDKTester-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B95F5837ACE8518CAAB9960C6C979B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D65A45D529A363CC9FB53AB72656377 /* OMGFormURLEncode.m in Sources */,
+				57C2EDB24CE396160023C90A9435F291 /* OMGHTTPURLRQ-dummy.m in Sources */,
+				FC43D411E152DD44612D67F214C80437 /* OMGHTTPURLRQ.m in Sources */,
+				8749954D1A18151332E48D9CAD9712C6 /* OMGUserAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622352AD43165250AED148B81D8C59BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C712FCF858C2BACD30A842241F1B8739 /* GCOAuth.m in Sources */,
+				4C9DF2975B0D1C1C0A71126DB440B0FF /* NSData+Base64.m in Sources */,
+				528F60D9D91661F5C6BB2C771D8EF251 /* PIX-cocoa-oauth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E257BA3651EA37F01340C56611772A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A50F0C4A981D92B39537D1E1194F0B /* LROAuth2AccessToken.m in Sources */,
+				EA89579623872BF1936FBAACCC496F11 /* LROAuth2Client.m in Sources */,
+				A2AC2491AB6D0F5C0FE3D9E30DD9A4B9 /* LROAuth2ClientDelegateHandler.m in Sources */,
+				8711D54A5C08CD4BDD11573ED780B20F /* LRURLRequestOperation.m in Sources */,
+				0D9250BB57E52CBF370807A47DC503BD /* NSArray+PIXCategory.m in Sources */,
+				6F82178E7CF47323068A10AB73FABF47 /* NSDictionary+PIXCategory.m in Sources */,
+				356F413BD84217076C9A249E77D6D019 /* NSDictionary+QueryString.m in Sources */,
+				BF04814F9D5ED16313F22294BD134525 /* NSError+PIXCategory.m in Sources */,
+				AFA870CD0B5C02E19A35D98F6DC66608 /* NSMutableURLRequest+PIXCategory.m in Sources */,
+				5FDDB42D8102C99C4624884258120A7F /* NSObject+PIXCategory.m in Sources */,
+				8409186526757F69397EDAA9D951B0EB /* NSString+QueryString.m in Sources */,
+				D91829589D1C652E20E1C5EF19A66681 /* NSURL+QueryInspector.m in Sources */,
+				27BD22EC63164FA7E5B28E066F96E57E /* OARequestParameter.m in Sources */,
+				4E2C4E98BF93CE475041282C59B11095 /* PIXAlbum.m in Sources */,
+				6D6F34BA13F14736FFA026EDCFAACE9A /* PIXAPIHandler.m in Sources */,
+				DB8921875692F5222D5FB7E973382CFF /* PIXBlock.m in Sources */,
+				BB49AD70BDE9059455C8B629DFB1A5AA /* PIXBlog.m in Sources */,
+				BFB1C7273EAA122BEF2E62802C2D671E /* PIXCredentialStorage.m in Sources */,
+				FD854E66BBD6C483FC5F8EF0674E6C35 /* PIXFriend.m in Sources */,
+				A2BDB51C489373F5C26DC78617370F9D /* PIXGlossary.m in Sources */,
+				4018544A6EB83106543D7CF214E6B512 /* PIXGuestbook.m in Sources */,
+				6BBEB4E0AD2F9A753AC5C5F589F7431B /* PIXIndex.m in Sources */,
+				950891A99042F803B5B5447045F685C6 /* PIXMainpage.m in Sources */,
+				C62F0F4FB1662DC9049DD18953192338 /* PIXNET-iOS-SDK-dummy.m in Sources */,
+				86400AC1084D99A11E5C7DA095485CD2 /* PIXNETSDK.m in Sources */,
+				16C4665F3B3D5E65A25215D5EAC5BE5F /* PIXURLSessionDelegateHandler.m in Sources */,
+				68EDEC8A6E12DAA16EF761678129ACF8 /* PIXUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E0FD85269180D0A1B8E027A82685F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = 18DDE2707CA213F238A1FAAB2F335E07 /* OMGHTTPURLRQ */;
+			targetProxy = 4ED46E5D2B60A712DCDDB3155F2E8712 /* PBXContainerItemProxy */;
+		};
+		3F6928520A21E046D7EB4BC6303ADCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PIXNET-iOS-SDK-PIXNET-iOS-SDK";
+			target = 15685998DCD11FB214587D0B19979407 /* PIXNET-iOS-SDK-PIXNET-iOS-SDK */;
+			targetProxy = A5E2927A1BF33F57881CEFA345DD8F98 /* PBXContainerItemProxy */;
+		};
+		4D44803E2E9ED54E5C5612427F10B6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PIXNET-iOS-SDK";
+			target = 5722794D137C5D1AB889A9600F892A1B /* PIXNET-iOS-SDK */;
+			targetProxy = FBD50ED61191E0C62219E49F9F2A9192 /* PBXContainerItemProxy */;
+		};
+		AAB15207D891E961D4ABDE39C49B6457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = 18DDE2707CA213F238A1FAAB2F335E07 /* OMGHTTPURLRQ */;
+			targetProxy = 501A52D396051CED7533277E8375C273 /* PBXContainerItemProxy */;
+		};
+		E876AE57325D0350EADF545AA2899E01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PIX-cocoa-oauth";
+			target = 3CB6CE4B2F6701CABD30C1DEC8BE302C /* PIX-cocoa-oauth */;
+			targetProxy = 8F4C78D8A0EFF41B152C97ED279E8327 /* PBXContainerItemProxy */;
+		};
+		F11B9A0BAEFE51E98973907EE6DC8912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PIX-cocoa-oauth";
+			target = 3CB6CE4B2F6701CABD30C1DEC8BE302C /* PIX-cocoa-oauth */;
+			targetProxy = A1B46913258CCC41E2CEE43FAAC2639F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		693DE4C1EA2468E10D8145AD5C553839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D2047A641CD14CE2767B678F3918E8 /* Pods-EmmaSDKTester.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		71D242C9184309624E691DA2C0107100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C3879E53FAFF1397501DBCB3E7CAF7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95B2F15698D6E8179034FF11AF22CE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3CFCB291B67FBE998F3D36A9FD57022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "PIXNET-iOS-SDK";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CDCC5AC54FF93AE514E42D2129D83772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D03485BD909A18EF2A93E658C0924648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = "PIXNET-iOS-SDK";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D33F69525F89F9975DB7AA30FCE81255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543BDD3F2722E198281C765326EF0E69 /* Pods-EmmaSDKTester.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9A324DC53ACBC58D0F8C719D4B5E96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DABF76D3A149B0A2BB279CB4CAF7C137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129A26151BC863C2440EB2225F30ADD0 /* Build configuration list for PBXNativeTarget "PIX-cocoa-oauth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D242C9184309624E691DA2C0107100 /* Debug */,
+				D9A324DC53ACBC58D0F8C719D4B5E96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DCF97B8932A9528DFAA65AF3264CF3D /* Build configuration list for PBXNativeTarget "PIXNET-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3879E53FAFF1397501DBCB3E7CAF7D /* Debug */,
+				CDCC5AC54FF93AE514E42D2129D83772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8030A3731CE57F0F6ABAAA4F9DFEB517 /* Build configuration list for PBXNativeTarget "Pods-EmmaSDKTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33F69525F89F9975DB7AA30FCE81255 /* Debug */,
+				693DE4C1EA2468E10D8145AD5C553839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C73BB545C4D7DFD4B6B5E58C1A90C48 /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B2F15698D6E8179034FF11AF22CE9F /* Debug */,
+				DABF76D3A149B0A2BB279CB4CAF7C137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E5384F275A14794F960E4E30883A98 /* Build configuration list for PBXNativeTarget "PIXNET-iOS-SDK-PIXNET-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CFCB291B67FBE998F3D36A9FD57022 /* Debug */,
+				D03485BD909A18EF2A93E658C0924648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

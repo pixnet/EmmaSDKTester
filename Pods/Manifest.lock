@@ -1,0 +1,22 @@
+PODS:
+  - OMGHTTPURLRQ (3.0.2):
+    - OMGHTTPURLRQ/RQ (= 3.0.2)
+  - OMGHTTPURLRQ/FormURLEncode (3.0.2)
+  - OMGHTTPURLRQ/RQ (3.0.2):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.0.2)
+  - PIX-cocoa-oauth (0.0.1)
+  - PIXNET-iOS-SDK (1.13.5):
+    - OMGHTTPURLRQ (~> 3.0.2)
+    - PIX-cocoa-oauth (~> 0.0.1)
+
+DEPENDENCIES:
+  - PIXNET-iOS-SDK
+
+SPEC CHECKSUMS:
+  OMGHTTPURLRQ: 8376dc887d76a5a7e2a67881dc788f917a2f437c
+  PIX-cocoa-oauth: 40aade2f3db07ddefac8373faecc3c18b98528c7
+  PIXNET-iOS-SDK: b5b3514fd1a8b19e9a82c45eb6c0a5a1282a3c34
+
+COCOAPODS: 0.39.0
