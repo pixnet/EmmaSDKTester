@@ -795,12 +795,102 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		693DE4C1EA2468E10D8145AD5C553839 /* Release */ = {
+		042E37F43CA997A366621188FD8CD5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		120106C522A177B4A2D92578165CC360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		532748B2ABB34C524AB9DCA9901805A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		78F062DF960A05A35D8F7781EBCD89ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84C584FC3F1FCE15E0D9898957F9CBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0489B944748716A8CEEE5944A4C1509 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7D2047A641CD14CE2767B678F3918E8 /* Pods-EmmaSDKTester.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -812,61 +902,7 @@
 			};
 			name = Release;
 		};
-		71D242C9184309624E691DA2C0107100 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		7C3879E53FAFF1397501DBCB3E7CAF7D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		95B2F15698D6E8179034FF11AF22CE9F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -898,10 +934,28 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C30DA88584E62431AFD0F8DA74ADC494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -917,24 +971,6 @@
 			};
 			name = Debug;
 		};
-		CDCC5AC54FF93AE514E42D2129D83772 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PIXNET-iOS-SDK/PIXNET-iOS-SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		D03485BD909A18EF2A93E658C0924648 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D5A6691294F8CD3635D447D8FCDC1F1 /* PIXNET-iOS-SDK.xcconfig */;
@@ -947,12 +983,12 @@
 			};
 			name = Release;
 		};
-		D33F69525F89F9975DB7AA30FCE81255 /* Debug */ = {
+		DE1BBA69936A76DA330EC44DFC4E9632 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 543BDD3F2722E198281C765326EF0E69 /* Pods-EmmaSDKTester.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -964,43 +1000,7 @@
 			};
 			name = Debug;
 		};
-		D9A324DC53ACBC58D0F8C719D4B5E96A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC82012706999B518CB4A992E5BC012E /* PIX-cocoa-oauth.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PIX-cocoa-oauth/PIX-cocoa-oauth-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		DABF76D3A149B0A2BB279CB4CAF7C137 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A57023207A5320702337BBC47189813B /* OMGHTTPURLRQ.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1027,7 +1027,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -1040,8 +1040,8 @@
 		129A26151BC863C2440EB2225F30ADD0 /* Build configuration list for PBXNativeTarget "PIX-cocoa-oauth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71D242C9184309624E691DA2C0107100 /* Debug */,
-				D9A324DC53ACBC58D0F8C719D4B5E96A /* Release */,
+				532748B2ABB34C524AB9DCA9901805A5 /* Debug */,
+				120106C522A177B4A2D92578165CC360 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1049,8 +1049,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
-				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1058,8 +1058,8 @@
 		5DCF97B8932A9528DFAA65AF3264CF3D /* Build configuration list for PBXNativeTarget "PIXNET-iOS-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C3879E53FAFF1397501DBCB3E7CAF7D /* Debug */,
-				CDCC5AC54FF93AE514E42D2129D83772 /* Release */,
+				84C584FC3F1FCE15E0D9898957F9CBC5 /* Debug */,
+				042E37F43CA997A366621188FD8CD5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1067,8 +1067,8 @@
 		8030A3731CE57F0F6ABAAA4F9DFEB517 /* Build configuration list for PBXNativeTarget "Pods-EmmaSDKTester" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33F69525F89F9975DB7AA30FCE81255 /* Debug */,
-				693DE4C1EA2468E10D8145AD5C553839 /* Release */,
+				DE1BBA69936A76DA330EC44DFC4E9632 /* Debug */,
+				A0489B944748716A8CEEE5944A4C1509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1076,8 +1076,8 @@
 		8C73BB545C4D7DFD4B6B5E58C1A90C48 /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95B2F15698D6E8179034FF11AF22CE9F /* Debug */,
-				DABF76D3A149B0A2BB279CB4CAF7C137 /* Release */,
+				C30DA88584E62431AFD0F8DA74ADC494 /* Debug */,
+				78F062DF960A05A35D8F7781EBCD89ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
